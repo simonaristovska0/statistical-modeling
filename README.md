@@ -1,6 +1,6 @@
 # Statistical Modeling Repository
 
-This repository contains two complementary projects in statistical modeling and data visualization, both implemented in Python and focused on demographic and population data analysis.
+This repository contains two of projects developed for the course of Statistical Modeling @ FCSE.
 
 ## Projects Overview
 
@@ -30,27 +30,21 @@ A deep dive into historical mortality patterns in Sweden from 1751 to 2023. We c
    - Heatmaps of log mortality differences  
    - Age‐period‐cohort decompositions  
 
-### 2. Linear Models Project (ISLR Lab)  
-A hands-on implementation of Chapter 3 labs from *An Introduction to Statistical Learning*. We explore polynomial regression, model diagnostics, and prediction accuracy on real‐world population data.
+### 2. Auto MPG Regression Project (ISLR Lab)
 
-**Contents**  
-- `linear_models.ipynb` – Notebook with code for fitting and evaluating linear, polynomial, and interaction‐term models  
-- `Документација.pdf` – Lab report including statistical summaries, \(R^2\)/adjusted \(R^2\), and diagnostic plots  
-- `requirements.txt` – Library list for this project  
+A hands-on implementation inspired by Lab 3 from *An Introduction to Statistical Learning*. This project investigates how vehicle characteristics influence fuel efficiency (mpg) using linear, multiple, and polynomial regression on the Auto dataset.
 
-**Key Analyses**  
-1. **Simple Linear Regression**  
-   - Fitting population vs. year  
-   - Residual analysis and inference on slope  
-2. **Polynomial Regression**  
-   - Comparing quadratic and cubic fits  
-   - Testing for nonlinearity (F-tests)  
-3. **Interactions & Higher-Order Terms**  
-   - Adding interaction between predictors  
-   - Interpretation of coefficients  
-4. **Model Selection**  
-   - Cross‐validation to choose polynomial degree  
-   - Bias-variance tradeoff visualization  
+**Contents**
+- `linear_models_auto.ipynb` – Jupyter Notebook with code for fitting and evaluating simple, multiple, and polynomial regression models
+- `Документација.pdf` – Detailed report including statistical summaries, \(R^2\)/adjusted \(R^2\), ANOVA tables, and model diagnostics
+
+**Key Analyses**
+1. **Simple Regression** – mpg vs. horsepower, slope interpretation, residuals
+2. **Multiple Regression** – adding weight, acceleration, displacement; VIF checks
+3. **Polynomial Models** – quadratic fits for horsepower, ANOVA comparison
+4. **Model Evaluation** – train/test split, RMSE on unseen data
+5. **Visualizations** – scatter plots, fitted curves, leverage diagnostics
+
 
 ## Getting Started
 
